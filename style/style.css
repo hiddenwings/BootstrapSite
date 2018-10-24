@@ -4,4 +4,6 @@
 .links {
   margin-left: 45%;
   box-sizing: border-box;
+  position: absolute;
+
 }
