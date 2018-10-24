@@ -7,3 +7,13 @@
   position: absolute;
 
 }
+.hotlast {
+  background-color: white;
+  border: solid 1px #1a75ff;
+  border-radius: 20px;
+  height: 500px;
+}
+.main {
+  padding-left: 40px;
+  padding-right: 40px;
+}
