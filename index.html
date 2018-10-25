@@ -26,6 +26,12 @@
           </li>
         </ul>
       </div>
+        <form class="form-inline search" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+         <button class="btn btn-primary" type="submit">
+           <span class="glyphicon glyphicon-search"></span>Search
+         </button>
+       </form>
     </nav>
     <div class="d-flex bg-light" style="background-repeat: repeat;">
       <div class="p-2 hotlast">
@@ -56,9 +62,32 @@
             <span class="carousel-control-next-icon"></span>
           </a>
         </div>
-        <div style="text-align:center; margin-top:1%;">
-          <h1>There is will be News</h1>
-          <p>SAMPLE TEXT</p>
+        <div style="margin-top:1%;">
+          <h1 style="text-align:center;">There is will be News</h1>
+          <div class="news">
+            <a  href="#" style="font-size:32px; text-align:center;">News #1</a>
+            <p style="text-align:left;">Some news. Some news. Some news. Some news. Some news. Some news. Some news. Some news. Some news. Some news. Some news.
+              Some news. Some news. Some news. Some news. Some news. Some news. Some news.</P>
+            <button type="button" class="buttonN btn btn-primary" data-toggle="modal" data-target="#myModal">
+              <span class="glyphicon glyphicon-search"></span> Short News.
+            </button>
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Short News</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <p style="padding-left:5px;">Some short news.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <p>SAMPLE TEXT</p>
           <p>SAMPLE TEXT</p>
           <p>SAMPLE TEXT</p>
